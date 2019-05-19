@@ -12,7 +12,7 @@ public class GameEngine {
             if (i % 2 == 0) {
                 UserInterface.gracz1();
                 plansza.setField(UserInterface.pobranieIndeksu(plansza.getSize()), Pole.KOLKO);
-            } else
+            } else {
                 UserInterface.gracz2();
                 plansza.setField(UserInterface.pobranieIndeksu(plansza.getSize()), Pole.KRZYZYK);
             }
